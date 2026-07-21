@@ -13,12 +13,6 @@
 
 <p align="center">
 
-A modern <b>Full-Stack Task Management System</b> built with <b>React.js</b>, <b>Node.js</b>, <b>Express.js</b>, and <b>MongoDB</b> that enables users to efficiently manage daily tasks through a responsive web interface.
-
-</p>
-
-# 📋 Task Management System
-
 ## 📖 Project Overview
 
 The **Task Management System** is a full-stack web application built using **React.js**, **Node.js**, **Express.js**, and **MongoDB**. It allows users to create, view, update, and delete tasks through a simple and responsive user interface. The frontend communicates with the backend using REST APIs, while MongoDB stores all task-related data.
