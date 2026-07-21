@@ -267,70 +267,23 @@ React-->>User: Updated Dashboard
 ```
 
 ---
+## 🔄 Request Flow
 
-## Request Flow
-
-### 1️⃣ User Interaction
-
-The user interacts with the React application by:
-
-- Creating Tasks
-- Editing Tasks
-- Viewing Tasks
-- Deleting Tasks
-
-↓
-
-### 2️⃣ Frontend Processing
-
-React Components
-
-↓
-
-Axios Service
-
-↓
-
-REST API
-
-↓
-
-### 3️⃣ Backend Processing
-
-Express Router
-
-↓
-
-Controller
-
-↓
-
-Business Logic
-
-↓
-
-Mongoose
-
-↓
-
-### 4️⃣ Database
-
-MongoDB
-
-↓
-
-Stores Task Information
-
-↓
-
-Returns JSON Response
-
-↓
-
-### 5️⃣ Frontend Update
-
-React automatically updates the user interface after receiving the API response.
-
+```mermaid
+flowchart LR
+    A[👤 User Interaction] --> B[⚛️ React Components]
+    B --> C[🔗 Axios Service]
+    C --> D[🌐 REST API]
+    D --> E[🛣️ Express Router]
+    E --> F[🎮 Controller]
+    F --> G[⚙️ Business Logic]
+    G --> H[🍃 Mongoose]
+    H --> I[(🗄️ MongoDB)]
+    I --> J[💾 Store Task Data]
+    J --> K[📦 JSON Response]
+    K --> L[🔄 React UI Update]
+    L --> M[✅ Updated Dashboard]
+```
 ---
 
 # 📂 Project Structure
