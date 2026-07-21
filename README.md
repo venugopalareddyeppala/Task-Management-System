@@ -129,6 +129,23 @@ The primary objectives of this project are:
 
 ---
 
+# ✨ Key Features
+
+| ### 📊 Dashboard | ### 📋 Task Management |
+|------------------|-------------------------|
+| - View task statistics
+- Pending task count
+- Completed task count
+- Priority-based task management
+- Responsive dashboard layout | - Create new tasks
+- View all tasks
+- Edit existing tasks
+- Delete tasks
+- Update task status
+- Manage task priorities
+- Set due dates |
+
+
 # 🛠 Technology Stack
 
 ## Frontend Technologies
