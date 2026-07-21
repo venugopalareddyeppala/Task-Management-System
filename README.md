@@ -81,70 +81,14 @@ The primary objectives of this project are:
 - Connect a custom domain using **GoDaddy DNS**.
 
 ---
-
 # ✨ Key Features
 
-### 📋 Task Management
-
-- Create new tasks
-- View all tasks
-- Edit existing tasks
-- Delete tasks
-- Update task status
-- Manage task priorities
-- Set due dates
-
----
-
-### 📊 Dashboard
-
-- View task statistics
-- Pending task count
-- Completed task count
-- Priority-based task management
-- Responsive dashboard layout
-
----
-
-### 🎨 User Interface
-
-- Clean Bootstrap UI
-- Responsive Design
-- Mobile Friendly
-- Reusable React Components
-- Easy Navigation
-- User-friendly Forms
-
----
-
-### ⚙ Backend Features
-
-- RESTful API
-- CRUD Operations
-- MongoDB Integration
-- Express Routing
-- MVC Architecture
-- Environment Variable Support
-- Error Handling
-
----
-
-# ✨ Key Features
-
-| ### 📊 Dashboard | ### 📋 Task Management |
-|------------------|-------------------------|
-| - View task statistics
-- Pending task count
-- Completed task count
-- Priority-based task management
-- Responsive dashboard layout | - Create new tasks
-- View all tasks
-- Edit existing tasks
-- Delete tasks
-- Update task status
-- Manage task priorities
-- Set due dates |
-
+| Category | Features |
+|----------|----------|
+| 📋 **Task Management** | • Create new tasks<br>• View all tasks<br>• Edit existing tasks<br>• Delete tasks<br>• Update task status<br>• Manage task priorities<br>• Set due dates |
+| 📊 **Dashboard** | • View task statistics<br>• Pending task count<br>• Completed task count<br>• Priority-based task management<br>• Responsive dashboard layout |
+| 🎨 **User Interface** | • Clean Bootstrap UI<br>• Responsive Design<br>• Mobile Friendly<br>• Reusable React Components<br>• Easy Navigation<br>• User-friendly Forms |
+| ⚙️ **Backend Features** | • RESTful API<br>• CRUD Operations<br>• MongoDB Integration<br>• Express Routing<br>• MVC Architecture<br>• Environment Variable Support<br>• Error Handling |
 
 # 🛠 Technology Stack
 
