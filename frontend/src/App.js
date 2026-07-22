@@ -16,7 +16,7 @@ function App() {
 
       <Navbar />
 
-      <div className="container mt-4">
+      <div className="container main-content mt-4">
 
         <Routes>
 
