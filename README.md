@@ -96,7 +96,6 @@ Verify:
 ```bash
 mongod --version
 ```
-
 ---
 
 ## Step 4: Clone the Repository
@@ -106,29 +105,75 @@ git clone https://github.com/venugopalareddyeppala/Task-Management-System.git
 
 cd Task-Management-System
 ```
+---
+# 🌍 Configure Environment Variables
 
+> **Note:** This project already contains the required `.env` files. No additional configuration is required.
 ---
 
-## Step 5: Install Backend Dependencies
+## Step 8: Install Backend Dependencies
 
 ```bash
+cd Task-Management-System
+
 cd backend
 
 npm install
 ```
+---
+## Start Backend
 
+```bash
+npm run dev
+```
+
+Expected Output
+
+```text
+Server running on port 5000
+
+MongoDB Connected Successfully
+```
 ---
 
-## Step 6: Install Frontend Dependencies
+## Step 9: Install Frontend Dependencies
 
 Open another terminal.
 
 ```bash
+cd Task-Management-System
+
 cd frontend
 
 npm install
 ```
+---
 
+## Start Frontend
+
+Open a new terminal.
+
+```bash
+npm start
+```
+
+Expected Output
+
+```text
+Compiled Successfully!
+
+Local: http://localhost:3000
+```
+---
+
+# 🌐 Access the Application
+
+| Service | URL |
+|---------|-----|
+| Frontend | http://localhost:3000 |
+| Backend API | http://localhost:5000/api/tasks |
+
+---
 ---
 
 # ☁️ Method 2: AWS EC2 Installation
@@ -138,17 +183,15 @@ npm install
 ```bash
 ssh -i your-key.pem ubuntu@<EC2-PUBLIC-IP>
 ```
-
 ---
 
 ## Step 2: Update the System
 
 ```bash
-sudo apt update
+sudo apt update -y
 
 sudo apt upgrade -y
 ```
-
 ---
 
 ## Step 3: Install Git
@@ -162,7 +205,6 @@ Verify:
 ```bash
 git --version
 ```
-
 ---
 
 ## Step 4: Install npm
@@ -170,7 +212,6 @@ git --version
 ```bash
 sudo apt install npm -y
 ```
-
 ---
 
 ## Step 5: Install Node.js
@@ -193,7 +234,6 @@ Expected Output
 v18.19.1
 9.2.0
 ```
-
 ---
 
 ## Step 6: Install MongoDB
@@ -227,7 +267,7 @@ sudo apt update
 Install MongoDB:
 
 ```bash
-sudo apt install -y mongodb-org
+sudo apt install mongodb-org -y
 ```
 
 Start MongoDB:
@@ -253,7 +293,6 @@ Verify Version:
 ```bash
 mongod --version
 ```
-
 ---
 
 ## Step 7: Clone the Repository
@@ -263,44 +302,25 @@ git clone https://github.com/venugopalareddyeppala/Task-Management-System.git
 
 cd Task-Management-System
 ```
+---
+# 🌍 Configure Environment Variables
 
+> **Note:** This project already contains the required `.env` files. No additional configuration is required.
 ---
 
 ## Step 8: Install Backend Dependencies
 
 ```bash
+cd Task-Management-System
+
 cd backend
 
 npm install
 ```
-
 ---
-
-## Step 9: Install Frontend Dependencies
-
-Open another terminal.
-
-```bash
-cd Task-Management-System/frontend
-
-npm install
-```
-
----
-
-# 🌍 Configure Environment Variables
-
-> **Note:** This project already contains the required `.env` files. No additional configuration is required.
-
----
-
-# ▶️ How to Run the Application
-
 ## Start Backend
 
 ```bash
-cd backend
-
 npm run dev
 ```
 
@@ -311,7 +331,19 @@ Server running on port 5000
 
 MongoDB Connected Successfully
 ```
+---
 
+## Step 9: Install Frontend Dependencies
+
+Open another terminal.
+
+```bash
+cd Task-Management-System
+
+cd frontend
+
+npm install
+```
 ---
 
 ## Start Frontend
@@ -319,8 +351,6 @@ MongoDB Connected Successfully
 Open a new terminal.
 
 ```bash
-cd frontend
-
 npm start
 ```
 
@@ -331,15 +361,14 @@ Compiled Successfully!
 
 Local: http://localhost:3000
 ```
-
 ---
 
 # 🌐 Access the Application
 
 | Service | URL |
 |---------|-----|
-| Frontend | http://localhost:3000 |
-| Backend API | http://localhost:5000/api/tasks |
+| Frontend | http://<EC2-PUBLIC-IP>:3000 |
+| Backend API | http://<EC2-PUBLIC-IP>:5000/api/tasks |
 
 ---
 
