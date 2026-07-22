@@ -106,9 +106,28 @@ git clone https://github.com/venugopalareddyeppala/Task-Management-System.git
 cd Task-Management-System
 ```
 ---
+
 # 🌍 Configure Environment Variables
 
-> **Note:** This project already contains the required `.env` files. No additional configuration is required.
+> **Note:** If the project already contains `.env` files in the `backend` and `frontend` folders, you can skip this step.
+
+### Backend (.env)
+
+Create a `.env` file inside the **backend** folder and add:
+
+```env
+PORT=5000
+MONGODB_URI=mongodb://127.0.0.1:27017/taskmanager
+```
+
+### Frontend (.env)
+
+Create a `.env` file inside the **frontend** folder and add:
+
+```env
+REACT_APP_API_URL=http://localhost:5000/api/tasks
+```
+
 ---
 
 ## Step 8: Install Backend Dependencies
