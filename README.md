@@ -359,7 +359,7 @@ Expected Output
 ```text
 Compiled Successfully!
 
-Local: http://localhost:3000
+Local: http://<EC2-PUBLIC-IP>:3000
 ```
 ---
 
@@ -367,8 +367,8 @@ Local: http://localhost:3000
 
 | Service | URL |
 |---------|-----|
-| Frontend | http://<EC2-PUBLIC-IP>:3000 |
-| Backend API | http://<EC2-PUBLIC-IP>:5000/api/tasks |
+| Frontend | http://EC2-PUBLIC-IP:3000 |
+| Backend API | http://EC2-PUBLIC-IP:5000/api/tasks |
 
 ---
 
